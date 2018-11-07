@@ -1,0 +1,26 @@
+/home/shankai/torch/install/bin/luajit: /home/shankai/torch/install/share/lua/5.1/trepl/init.lua:389: module 'redis' not found:No LuaRocks module found for redis
+	no field package.preload['redis']
+	no file '/home/shankai/.luarocks/share/lua/5.1/redis.lua'
+	no file '/home/shankai/.luarocks/share/lua/5.1/redis/init.lua'
+	no file '/home/shankai/torch/install/share/lua/5.1/redis.lua'
+	no file '/home/shankai/torch/install/share/lua/5.1/redis/init.lua'
+	no file './redis.lua'
+	no file '/home/shankai/torch/install/share/luajit-2.1.0-beta1/redis.lua'
+	no file '/usr/local/share/lua/5.1/redis.lua'
+	no file '/usr/local/share/lua/5.1/redis/init.lua'
+	no file '/home/shankai/.luarocks/lib/lua/5.1/redis.so'
+	no file '/home/shankai/torch/install/lib/lua/5.1/redis.so'
+	no file './redis.so'
+	no file '/usr/local/lib/lua/5.1/redis.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'error'
+	/home/shankai/torch/install/share/lua/5.1/trepl/init.lua:389: in function 'require'
+	web_backend.lua:12: in main chunk
+	[C]: in function 'dofile'
+	...nkai/torch/install/lib/luarocks/rocks/trepl/scm-1/bin/th:150: in main chunk
+	[C]: at 0x560a6d883e40
+  File "web_server.py", line 35
+    print res
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(res)?
